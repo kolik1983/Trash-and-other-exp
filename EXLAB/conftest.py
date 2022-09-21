@@ -91,3 +91,4 @@ def browser(request):
 
 # pytest -v -s  --tb=line --reruns 1  --browser_name=chrome --language=ru --headless=None   test_1_page.py
 # for launch yandex - pytest -v -s  --tb=line --reruns 1  --browser_name=yandex --language=ru --headless=true   test_1_page.py
+# для корректной работы Яндекс браузера необходимо скачать хромдрайвер 102 версии, той же на которой работает Яндекс. 
